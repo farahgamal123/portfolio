@@ -219,4 +219,151 @@ nav ul li a{
         padding: 40px 0px;
     }
 }
+.projects{
+    margin-top: 2rem;
+}
+.projects .title{
+        font-style: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        color: #3978b4;
+        font-size: 40px;
+}
+.site{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(30rem,1fr));
+        gap: 2rem;
+        padding: 50px;
+}
+.site-project{
+    text-align: center;
+    padding: 3rem 2rem;
+    background: white;
+    position: relative;
+}
+.site-project :hover{
+    padding: 10px;
+    border: 1px solid  var(--text-color);
+    transition: 0.4s;
+}
+.site-project img{
+    height: auto;
+    width: 400px;
+}
+.sitetitle{
+    font-size: 1.5rem;
+    font-weight:600 ;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+.site-project button{
+    padding: 10px 10px;
+    background-color: rgb(105, 100, 100);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 50px;
+    width: 30%;
+    color: white;
+    
+}
+.site-project  button a{
+    text-decoration: none;
+}
+.about{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #221f4b;
+    padding: 20px;
+}
+.about img{
+    height: auto;
+    width: 600px;
+}
+section .main{
+    width: 1130;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+section .details{
+    width: 550px;
+    margin: 40px;
+}
+section .details h1{
+    font-size: 50px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+section .details p{
+    font-size: 22px;
+    color:#d5d5d5;
+    width: 550px;
+    font-family: 'Times New Roman', Times, serif;
+}
+section .details p .span{
+    display: flex;
+    color: #ffb949;
+}
+@media(max-width:930px){
+    section .main{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+}
+footer h3{
+    color: #007ced;
+    padding: 50px;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    list-style: none;
+    margin: 10px;
+}
+footer .socialicons ul li a{
+    color: white;
+}
+footer ul li a:first-child{
+    color: blue;
+}
+footer ul li a:nth-child(2){
+    color: rgb(227, 100, 146);
+}
+footer ul li a:last-child{
+    color: white;
+}
+footer ul li span{
+    color: white;
+}
+@media(max-width:930px)
+{
+    footer .socialicons{
+        display: inline;
+    }
+  footer.socialicons li{
+    display: block;
+   }
+   footer .socialicons li a{
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+   }
+
+}
 
